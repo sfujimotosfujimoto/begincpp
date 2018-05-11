@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Section15Challenge/Section15Challenge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Inheritance/Inheritance.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Section14Challenge/Section14Challenge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Section13Challenge/Section13Challenge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DeepCopy/DeepCopy.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ShallowCopy/ShallowCopy.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OOP2/OOP2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OOP">
+   </FileRef>
+   <FileRef
+      location = "group:Project2/Project2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Project1/Project1.xcodeproj">
+   </FileRef>
+</Workspace>
