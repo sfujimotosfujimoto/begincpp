@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Section16Challenge/Section16Challenge.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Section15Challenge/Section15Challenge.xcodeproj">
    </FileRef>
    <FileRef
@@ -12,6 +15,9 @@
    </FileRef>
    <FileRef
       location = "group:Section13Challenge/Section13Challenge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BaseClassPointer">
    </FileRef>
    <FileRef
       location = "group:DeepCopy/DeepCopy.xcodeproj">

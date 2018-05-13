@@ -1,0 +1,33 @@
+//
+//  Savings_Account.cpp
+//  Section15Challenge
+//
+//  Created by s fujimoto on 2018/05/11.
+//  Copyright © 2018 sfujimoto. All rights reserved.
+//
+
+#include "Savings_Account.hpp"
+
+Savings_Account::Savings_Account(std::string name, double balance, double int_rate) : Account(name, balance), int_rate{int_rate} {
+    
+};
+
+bool Savings_Account::deposit(double amount) {
+    amount += amount * (int_rate/100);
+    return Account::deposit(amount);
+}
+
+bool Savings_Account::withdraw(double amount) {
+    std::cout << "In Savings_Account::withdraw" << std::endl;
+    return Account::withdraw(amount);
+}
+std::ostream &operator<<(std::ostream &os, const Savings_Account &account) {
+    os << "[Savings_Account: " << account.name << ": " << account.balance << ", " << account.int_rate << "%]";
+    return os;
+}
+
+
+
+
+
+
